@@ -8,7 +8,7 @@ setup(
     version='1.1',
     install_requires=['gym',
                       'numpy',
-                      'mujoco_py',
+                      'mujoco_py==2.0.2.0',
                       'pybullet',
                       'h5py',
                       'termcolor',  # adept_envs dependency
